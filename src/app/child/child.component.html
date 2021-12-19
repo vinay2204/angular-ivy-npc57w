@@ -1,0 +1,7 @@
+<div class="box" [ngClass]="{boxGreen:boxColor== 'green',boxRed:boxColor == 'red'}">
+<input type="text" #teval placeholder="{{placeholderText}}">
+<button (click)="onCreate(teval)">Create</button>
+<div class="count" *ngIf="count">Total Count : <strong>{{count}}</strong></div>
+
+
+</div>

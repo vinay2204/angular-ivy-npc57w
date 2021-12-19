@@ -1,0 +1,36 @@
+p {
+  font-family: Lato;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-box {
+  background: #fdfdfd;
+  border: 1px solid d9d9d9;
+  padding: 15px;
+  margin: 0px 15px;
+  border-radius: 7px;
+  width: 48%;
+}
+.recha{
+  cursor: pointer;
+}
+.first-box h2 {
+  color: #4ec65f;
+  font-size: 35px;
+  padding: 0;
+  margin: o auto;
+}
+
+.first-box table {
+  font-size: 30px;
+  text-align: left;
+}
+.first-box table th {
+  background: #f4f4f4;
+}
+.first-box table .recha {
+  color: red;
+}
